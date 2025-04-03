@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Демонстрація HTML5</title>
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо до демонстрації HTML5</h1>
+    </header>
+    
+    <nav>
+        <a href="#article">Стаття</a> |
+        <a href="#media">Медіа</a> |
+        <a href="#forms">Форми</a>
+    </nav>
+    
+    <main>
+        <section id="article">
+            <article>
+                <h2>Приклад статті</h2>
+                <p>Це приклад секції <mark>статті</mark>.</p>
+            </article>
+        </section>
+        
+        <aside>
+            <p>Це додатковий контент, зазвичай використовується для реклами або пов’язаних посилань.</p>
+        </aside>
+        
+        <section id="media">
+            <h2>Медіа елементи</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+            
+            <h3>Локальне відео</h3>
+            <video controls width="300">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            
+            <h3>Вбудоване YouTube-відео</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uI8BKAyVYx0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E7jbCcgwf9s" frameborder="0" allowfullscreen></iframe>
+        </section>
+        
+        <section id="forms">
+            <h2>Елементи форми</h2>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+            </datalist>
+            
+            <details>
+                <summary>Додаткова інформація</summary>
+                <p>Тут міститься прихований контент.</p>
+            </details>
+            
+            <dialog open>Це діалогове вікно.</dialog>
+            
+            <meter value="6" min="0" max="10">6 з 10</meter>
+            
+            <progress value="70" max="100"></progress>
+            
+            <output>42</output>
+        </section>
+        
+        <figure>
+    <img src="https://images.genius.com/3fd0ce0dfdd31c0a224acf9ed085f8e3.1000x563x1.jpg" alt="Зразок зображення">
+    <figcaption>Це підпис до зображення.</figcaption>
+            <img src="https://th.bing.com/th/id/OIP.gA6Y6TQiWkfyfZxp7qdxtAHaE7?rs=1&pid=ImgDetMain" alt="Зразок зображення">
+            <figcaption>Це підпис до зображення.</figcaption>
+        </figure>
+        
+        <template>
+            <p>Це елемент шаблону.</p>
+        </template>
+        
+        <time datetime="2025-04-03">3 квітня 2025</time>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Демонстрація HTML5</p>
+    </footer>
+</body>
+</html>
